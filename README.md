@@ -11,7 +11,7 @@ The repository also includes an example Scratch model.
 ## Use
 1. Pair Werium via Bluetooth (PIN: 1234) and set the serial port bitrate/baud rate to 57600 (You can also emulate the device using an Arduino and the code in [arduino_werium_emulation](arduino_werium_emulation) folder)
 
-2. Run the server binary from [bin](bin) folder
+2. Run the server binary from [server](server) folder
 
 3. In [Scratch](http://scratchx.org/#scratch) open the model scratch_model.sb2
 
@@ -24,7 +24,7 @@ The repository also includes an example Scratch model.
 > cd server
 >
 >npm install pkg
-> 
+>
 > pkg werium_server.js
 
 ## Requirements

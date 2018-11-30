@@ -95,7 +95,7 @@ function serial_connect(port) {
 
   // Write # to tell the device to start sending data
   setTimeout(function() {
-    serialport.write("#", function(err) {
+    serialport.write("#om", function(err) {
       if (err) {
         console.log("Error on write: ", err.message);
       }
