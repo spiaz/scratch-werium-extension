@@ -9,7 +9,7 @@ const math = require("mathjs");
 
 const SERIAL_BITRATE = 57600;
 const SOCKET_PORT = 5000;
-const NUM_CALIBRATION_SAMPLES = 8;
+const NUM_CALIBRATION_SAMPLES = 250;
 
 var alpha = 0;
 var beta = 0;
