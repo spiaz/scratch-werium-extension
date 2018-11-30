@@ -1,0 +1,16 @@
+# Build directories from pyinstaller
+build/*
+dist/*
+
+# Build files from Scratch
+*.sb2
+
+# VScode configuration
+.vscode/
+.pytest_cache
+.mypy_cache
+
+# Compiled python files
+*.pyc
+*.spec
+server_wss/node_modules
