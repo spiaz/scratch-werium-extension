@@ -1,0 +1,8 @@
+numpy
+flask-io
+pyserial
+flask-socketio
+pywebview
+gevent
+gevent-websocket
+pyinstaller

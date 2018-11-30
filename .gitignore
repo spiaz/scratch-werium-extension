@@ -2,9 +2,6 @@
 build/*
 dist/*
 
-# Build files from Scratch
-*.sb2
-
 # VScode configuration
 .vscode/
 .pytest_cache
@@ -13,4 +10,4 @@ dist/*
 # Compiled python files
 *.pyc
 *.spec
-server_wss/node_modules
+*/node_modules

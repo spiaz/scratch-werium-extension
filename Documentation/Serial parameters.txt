@@ -1,0 +1,17 @@
+- Se conecta al ordenador por Bluetooth hc06. 
+- El primer paso es emparejarlo (clave: 1234)
+- Bitrate: 57600
+- Handshake / Flow control: None
+- Data bits: 8
+- Parity: None
+- Stop bits: 1
+
+
+Nota: Para que Werium envíe los datos en matrices de rotación, 
+enviar lo siguiente:  
+#om 
+
+Para compilar el programa en un ejecutable:
+
+>pyinstaller werium_server_friendly.py
+
