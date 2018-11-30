@@ -10,4 +10,3 @@ dist/*
 # Compiled python files
 *.pyc
 *.spec
-*/node_modules

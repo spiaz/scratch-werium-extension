@@ -23,7 +23,9 @@ The repository also includes an example Scratch model.
 - To build the server executables for go to the [server](server) folser and run:
 > cd server
 >
->npm install pkg
+> npm install
+>
+> npm install -g pkg
 >
 > pkg werium_server.js
 
