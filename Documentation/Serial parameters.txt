@@ -11,7 +11,4 @@ Nota: Para que Werium envíe los datos en matrices de rotación,
 enviar lo siguiente:  
 #om 
 
-Para compilar el programa en un ejecutable:
-
->pyinstaller werium_server_friendly.py
 

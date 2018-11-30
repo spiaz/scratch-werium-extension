@@ -1,4 +1,4 @@
-char readed = '0';
+String readed = "0";
 bool ledOn = false;
 
 // the setup routine runs once when you press reset:
@@ -10,7 +10,8 @@ void setup()
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
-String myrand(){
+String myrand()
+{
   return String(random(-100, 101) / 100.0);
 }
 
@@ -19,12 +20,12 @@ void loop()
 {
   if (Serial.available())
   {
-    readed = Serial.read();
+    readed = Serial.readString();
     digitalWrite(LED_BUILTIN, LOW);
     ledOn = false;
   }
 
-  if (readed == '#')
+  if (readed.equals("#om"))
   {
     if (ledOn)
     {
